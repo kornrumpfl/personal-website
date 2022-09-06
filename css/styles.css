@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: blanchedalmond;
+}
+.cornericons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.boaticon{
+  display: flex;
+  width:50px;
+  height: 50px;
+}
+.archeryicon{
+  display: flex;
+  width:50px;
+  height: 50px;
+}
+.cornericons{
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+.navigation a:hover {
+  background: #1565C0;
+}
+.head2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.head2 img{
+    display: flex;
+    width: 200px;
+}
+header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color:black;
+}
+.hobbieslist{
+  display: flex;
+  list-style: none;
+}
+.techico{
+  display: flex;
+  list-style: none;
+  flex-flow: row;
+}
+.techico img{
+  width: 5px;
+}
+.boatimg{
+  display: flex;
+  width: 90px;
+}
+.archeryimg{
+  display:flex;
+  width:90px;
+}
