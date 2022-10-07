@@ -1,0 +1,22 @@
+
+body{
+    background-color: blanchedalmond;
+    max-width: 1000px;
+}
+header { 
+    position: sticky;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+    border:1px groove black;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color:black;
+}
+h2{
+    text-align: center;
+}

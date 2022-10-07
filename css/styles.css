@@ -1,76 +1,39 @@
+@import "./techiuse.css";
+@import "./global.css";
 * {
   box-sizing: border-box;
 }
-body{
-  background-color: blanchedalmond;
-}
-.cornericons{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-.boaticon{
-  display: flex;
-  width:50px;
-  height: 50px;
-}
-.archeryicon{
-  display: flex;
-  width:50px;
-  height: 50px;
-}
-.cornericons{
-  display: flex;
-  flex-flow: row;
-  list-style: none;
-}
+
 .navigation {
   display: flex;
-  flex-flow: row wrap;
-  list-style: none;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
 }
 .navigation a {
+  justify-content: flex-end;
   text-decoration: none;
   display: block;
   padding: 1em;
   color: black;
 }
 .navigation a:hover {
-  background: #1565C0;
+  background: #607EAA;
+  transition: 0.8s;
 }
 .head2{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border:1px groove black;
 }
 .head2 img{
     display: flex;
     width: 200px;
-}
-header {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-h1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    color:black;
-}
-.hobbieslist{
-  display: flex;
-  list-style: none;
-}
-.techico{
-  display: flex;
-  list-style: none;
-  flex-flow: row;
-}
-.techico img{
-  width: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-position: 15px;
+    
 }
 .boatimg{
   display: flex;
@@ -79,4 +42,43 @@ h1{
 .archeryimg{
   display:flex;
   width:90px;
+}
+.airplaneimg{
+  display:flex;
+  width:90px;
+}
+.nameAboutme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutmetext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midleSection{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border:1px groove black;
+}
+.endSection{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border:1px groove black;
+}
+.hobbies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.hobbieslist{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
 }

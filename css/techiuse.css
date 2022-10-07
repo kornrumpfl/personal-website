@@ -1,0 +1,19 @@
+.techico{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 400px;
+    border:1px groove black;
+  }
+  .techico img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+  }
+  #matlabTechIDo{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+  }
